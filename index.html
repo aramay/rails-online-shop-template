@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
+    <title>Rails Online Shop</title>
   <!-- Insert link to styles.css here -->
 
   <!--fonts-->
@@ -24,12 +24,91 @@
       <script src="js/bootstrap.min.js"></script>
   <!--script-->
 </head>
+
 <body>
-  <header class="header">
-    <h1 class="header__title">Weather App</h1>
-    <button id="butRefresh" class="headerButton"></button>
-    <button id="butAdd" class="headerButton"></button>
-  </header>
+
+    <!-- HEADER TOP END-->
+  <div class="header">
+      <div class="container">
+
+          <div class="header-top">
+              <div class="logo">
+                  <a href="index.html">N-AIR</a>
+              </div>
+          </div>
+      </div>
+  </div>
+    <!-- HEADER TOP END-->
+
+    <!-- TOP NAV BAR START -->
+    <div class="header-bottom">
+        <div class="content white">
+
+            <nav class="navbar navbar-default nav-menu" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div class="clearfix"></div>
+                <!--/.navbar-header-->
+
+                <div class="collapse navbar-collapse collapse-pdng" id="bs-example-navbar-collapse-1">
+
+                    <!-- SHOP DROPDOWN START -->
+                    <ul class="nav navbar-nav nav-font">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="products.html">Shoes</a></li>
+                                <li><a href="products.html">Tees</a></li>
+                                <li><a href="products.html">Tops</a></li>
+                                <li class="divider"></li>
+                                <li><a href="products.html">Tracks</a></li>
+                                <li class="divider"></li>
+                                <li><a href="products.html">Gear</a></li>
+                            </ul>
+                        </li>
+                        <!-- SHOP DROPDOWN END -->
+
+                        <!-- MEN DROPDOWN START -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Men<b class="caret"></b></a>
+                            <ul class="dropdown-menu multi-column columns-3">
+                                <div class="row">
+                                    <div class="col-sm-4 menu-img-pad">
+                                        <ul class="multi-column-dropdown">
+                                            <li><a href="products.html">Joggers</a></li>
+                                            <li><a href="products.html">Foot Ball</a></li>
+                                            <li><a href="products.html">Cricket</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="products.html">Tennis</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="products.html">Casual</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-sm-4 menu-img-pad">
+                <a href="#"><img src="images/menu1.jpg" alt="/" class="img-rsponsive men-img-wid" /></a>
+                                    </div>
+                                    <div class="col-sm-4 menu-img-pad">
+                <a href="#"><img src="images/menu2.jpg" alt="/" class="img-rsponsive men-img-wid" /></a>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <!-- MEN DROPDOWN END -->
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </div>
+    <!-- TOP NAV BAR END -->
 
   <main class="main" hidden>
     <!-- Insert forecast-card.html here -->
