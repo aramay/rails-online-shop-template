@@ -195,6 +195,122 @@ ul.nav-font>li>a:hover{
 }
 
 
+/*JUMBOTRON CAROUSEL START*/
+a.left.carousel-control,a.right.carousel-control {
+    background: none;
+    width: 0;
+}
+.car-re-posn {
+    bottom: 35%;
+    padding: 0%;
+    margin: 0%;
+    z-index: 99;
+    left: 55%;
+    right: 0%;
+}
+.car-re-posn h3{
+    font-weight: 400;
+    font-size: 75px;
+    text-transform: capitalize;
+    color: #100b0b;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: none;
+}
+.car-re-posn h4{
+    font-family: 'Pathway Gothic One' !important;
+    font-weight: 400;
+    font-size: 45px;
+    color: #b8b8b8;
+    text-transform: capitalize;
+    margin: 15px 0px;
+    text-shadow: none;
+}
+.car-icn {
+    color: #B5B2B2;
+}
+span.color-bar{
+    background: #8cf2b5; Old browsers
+    background: -moz-linear-gradient(left,  #8cf2b5 0%, #8cf2b5 26%, #80ecc0 35%, #80ecc0 35%, #69dfd8 68%, #50d2f0 99%); /* FF3.6+
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#8cf2b5), color-stop(26%,#8cf2b5), color-stop(35%,#80ecc0), color-stop(35%,#80ecc0), color-stop(68%,#69dfd8), color-stop(99%,#50d2f0)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #8cf2b5 0%,#8cf2b5 26%,#80ecc0 35%,#80ecc0 35%,#69dfd8 68%,#50d2f0 99%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #8cf2b5 0%,#8cf2b5 26%,#80ecc0 35%,#80ecc0 35%,#69dfd8 68%,#50d2f0 99%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #8cf2b5 0%,#8cf2b5 26%,#80ecc0 35%,#80ecc0 35%,#69dfd8 68%,#50d2f0 99%); /* IE10+ */
+    background: linear-gradient(to right,  #8cf2b5 0%,#8cf2b5 26%,#80ecc0 35%,#80ecc0 35%,#69dfd8 68%,#50d2f0 99%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8cf2b5', endColorstr='#50d2f0',GradientType=1 ); /* IE6-9 */
+    display: block;
+    width: 50%;
+    height: 2px;
+    z-index: 999;
+    margin-left: 132px;
+}
+/*JUMBOTRON CAROUSEL END*/
+
+/*MAIN CONTENT START*/
+.feel-fall {
+    padding: 3em 0;
+}
+.fall-left h3,.feel-right h3{
+    font-size: 50px;
+    font-family: 'Pathway Gothic One';
+    color: #100b0b;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.fall-left p, .feel-right p {
+    margin: 15px 0px;
+    font-size: 20px;
+    color: #C7C7C7;
+    text-transform: lowercase;
+}
+.fl-img-wid {
+    margin: 0 auto;
+}
+
+span.fel-fal-bar{
+    background: #4745d3; /* Old browsers */
+    background: -moz-linear-gradient(left,  #4745d3 1%, #4745d3 12%, #5451c7 29%, #5451c7 29%, #b0a56e 57%, #c1b45e 68%, #ecdc34 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(1%,#4745d3), color-stop(12%,#4745d3), color-stop(29%,#5451c7), color-stop(29%,#5451c7), color-stop(57%,#b0a56e), color-stop(68%,#c1b45e), color-stop(100%,#ecdc34)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #4745d3 1%,#4745d3 12%,#5451c7 29%,#5451c7 29%,#b0a56e 57%,#c1b45e 68%,#ecdc34 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #4745d3 1%,#4745d3 12%,#5451c7 29%,#5451c7 29%,#b0a56e 57%,#c1b45e 68%,#ecdc34 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #4745d3 1%,#4745d3 12%,#5451c7 29%,#5451c7 29%,#b0a56e 57%,#c1b45e 68%,#ecdc34 100%); /* IE10+ */
+    background: linear-gradient(to right,  #4745d3 1%,#4745d3 12%,#5451c7 29%,#5451c7 29%,#b0a56e 57%,#c1b45e 68%,#ecdc34 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4745d3', endColorstr='#ecdc34',GradientType=1 ); /* IE6-9 */
+    display: block;
+    width: 50%;
+    height: 2px;
+    margin-left: 148px;
+}
+
+
+span.fel-fal-bar2{
+    background: #41a4d1; /* Old browsers */
+    background: -moz-linear-gradient(left,  #41a4d1 1%, #41a4d1 12%, #4d9ec6 29%, #7f8799 44%, #9f787c 57%, #d25f4e 68%, #fb4c29 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(1%,#41a4d1), color-stop(12%,#41a4d1), color-stop(29%,#4d9ec6), color-stop(44%,#7f8799), color-stop(57%,#9f787c), color-stop(68%,#d25f4e), color-stop(100%,#fb4c29)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #41a4d1 1%,#41a4d1 12%,#4d9ec6 29%,#7f8799 44%,#9f787c 57%,#d25f4e 68%,#fb4c29 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #41a4d1 1%,#41a4d1 12%,#4d9ec6 29%,#7f8799 44%,#9f787c 57%,#d25f4e 68%,#fb4c29 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #41a4d1 1%,#41a4d1 12%,#4d9ec6 29%,#7f8799 44%,#9f787c 57%,#d25f4e 68%,#fb4c29 100%); /* IE10+ */
+    background: linear-gradient(to right,  #41a4d1 1%,#41a4d1 12%,#4d9ec6 29%,#7f8799 44%,#9f787c 57%,#d25f4e 68%,#fb4c29 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41a4d1', endColorstr='#fb4c29',GradientType=1 ); /* IE6-9 */
+    display: block;
+    width: 50%;
+    height: 2px;
+    margin-left: 148px;
+}
+
+.fal-box,.fel-box {
+    width: 50%;
+}
+.fall-left,.feel-right {
+    text-align: center;
+}
+.styl-hdn {
+    width: 50%;
+}
+.styl-price {
+    width: 50%;
+}
+/*MAIN CONTENT END*/
+
 /*NEWSLETTER START*/
 .sub-news{
     padding: 3em 0;
@@ -243,6 +359,7 @@ a.subs-btn:hover{
     border-top: 2px solid #A5E126;
     color: #fff;
 }
+/*NEWSLETTER END*/
 
 /*FOOTER START*/
 .footer-grid ul{
@@ -271,10 +388,69 @@ ul.categories li a,ul.shot-links li a{
     line-height: 1.6em;
 }
 
+ul.categories li a:hover,ul.shot-links li a:hover{
+    text-decoration: none;
+    color: #aaa;
+    transition: 0.5s all;
+}
+ul.social li{
+    display: inline;
+}
+.re-ft-grd{
+    padding: 0;
+}
+ul.social li a {
+    padding: 30px 0px;
+    width: 31.9%;
+    float: left;
+    background-color: #AAA;
+    color: #fff;
+    text-align: center;
+    margin: 61px 3px 0px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+ul.social li a:hover{
+    text-decoration: none;
+    transition: 0.5s all;
+}
+ul.social li a.fb:hover {
+    background-color:#3b5998;
+}
+ul.social li a.twt:hover {
+    background-color: #55acee;
+}
+ul.social li a.gpls:hover {
+    background-color: #dd4b39;
+}
+.bt-logo {
+    padding-top: 60px;
+}
+a.ft-log, a.ft-log:hover {
+    padding: 52px 52PX 60PX;
+}
+.copy-rt {
+    text-align: center;
+    margin-top: 20px;
+}
+.copy-rt p {
+    font-family: 'Didact Gothic';
+    color: #100b0b;
+    font-weight: 700;
+    font-size: 17px;
+}
+.copy-rt p a{
+    text-decoration: none;
+    color: #100b0b;
+}
+.copy-rt p a:hover{
+    text-decoration: none;
+    color: #fa5400;
+}
 /*FOOTER END*/
 
 
-/*NEWSLETTER END*/
 
 /*header-top END*/
 /*
