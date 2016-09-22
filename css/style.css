@@ -158,6 +158,124 @@ body{
     margin: 0 auto;
     width: 34%;
 }
+ul.nav-font>li>a{
+    font-size: 17px;
+    color: #100b0b !important;
+    font-family: 'Didact Gothic';
+    font-weight: 400;
+}
+ul.nav-font>li>a:hover{
+    color: #aaa !important;
+    transition: 0.5s all;
+}
+.navbar-default .navbar-nav>.open>a,.navbar-default .navbar-nav>.open>a:focus{
+    color: #aaa !important;
+    background-color: transparent ;
+}
+.men-img-wid {
+    width: 100%;
+}
+.menu-img-pad {
+    padding: 0;
+    width: 30.33333%;
+    margin: 0px 7px;
+}
+.menu-img-pad:nth-child(2) {
+    margin: 0px;
+    padding: 20px 0px;
+}
+.menu-img-pad:nth-child(3) {
+    padding: 20px 0px;
+}
+.dropdown-menu {
+    padding: 10px !important;
+}
+.airmax-shoe {
+    margin: 50px 0px 0px;
+}
+
+
+/*NEWSLETTER START*/
+.sub-news{
+    padding: 3em 0;
+    text-align: center;
+}
+.sub-news h3 {
+    margin-bottom: 15px;
+    font-family: 'Pathway Gothic One';
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 38px;
+    color: #100b0b;
+}
+li.ad-2-crt a:nth-child(2) {
+    margin-top: 20px;
+}
+input.sub-email {
+    font-family: 'Pathway Gothic One';
+    padding: 7px;
+    width: 40%;
+    border: 2px solid #100b0b;
+    outline: none;
+    font-size: 18px;
+}
+a.subs-btn {
+    font-family: 'Pathway Gothic One';
+    border: none;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+    background-color: #FFF;
+    border-radius: 0;
+    padding: 7px;
+    font-size: 18px;
+    width: 9%;
+    margin: -6px -3px 0px;
+    color: #000;
+    outline: none;
+}
+a.subs-btn:hover{
+    background: #A5E126;
+    transition: 0.5s all;
+    border: none;
+    border-right: 2px solid #A5E126;
+    border-bottom: 2px solid #A5E126;
+    border-top: 2px solid #A5E126;
+    color: #fff;
+}
+
+/*FOOTER START*/
+.footer-grid ul{
+    list-style-type: none;
+}
+.footer-grid {
+    padding: 3em 0;
+}
+
+.re-ft-grd h3{
+    font-family: 'Didact Gothic';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #100b0b;
+    margin-bottom: 20px;
+    text-shadow: none;
+}
+
+ul.categories li a,ul.shot-links li a{
+    font-family: 'Didact Gothic';
+    color: #100b0b;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.6em;
+}
+
+/*FOOTER END*/
+
+
+/*NEWSLETTER END*/
+
 /*header-top END*/
 /*
 
